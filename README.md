@@ -1,6 +1,6 @@
 ## 3D CNN for Voxel Classification
 
-A Python app capable of identifying and classifying a subset of 3D models from the [ShapeNet](https://shapenet.org/) dataset.  
+A Python app capable of identifying and classifying a subset of 3D models with a validation accuracy of 83% from the [ShapeNet](https://shapenet.org/) dataset.  
 For this project, the [ShapeNetCore](https://huggingface.co/datasets/ShapeNet/ShapeNetCore) was used to train a 3D Convolution Neural Network. Each 3D model is represented as voxels on a 256x256x256 grid. 
 
 Each voxel grid object is stored as a binvox file which renders as such:
