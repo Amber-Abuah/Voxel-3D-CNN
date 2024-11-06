@@ -40,3 +40,5 @@ Each class has ~100 selected models to prevent class imbalance.
 - A dropout layer (with p=0.5).
 - Second fully connected layer, with 1024 inputs and 256 outputs.
 - The final fully connected layer with 256 inputs and 14 outputs.
+
+_(A huge thanks to the researchers at Princeton, Stanford and TTIC for allowing me access to this dataset!) You can request access to the dataset through the https://shapenet.org/ website or through HuggingFace: https://huggingface.co/datasets/ShapeNet/ShapeNetCore_
