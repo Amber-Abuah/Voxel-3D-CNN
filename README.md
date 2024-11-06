@@ -3,6 +3,10 @@
 A Python app capable of identifying and classifying a subset of 3D models from the [ShapeNet](https://shapenet.org/) dataset.  
 For this project, the [ShapeNetCore](https://huggingface.co/datasets/ShapeNet/ShapeNetCore) was used to train a 3D Convolution Neural Network. Each 3D model is represented as voxels on a 256x256x256 grid. 
 
+Each voxel grid object is stored as a binvox file which renders as such:
+![chair](https://github.com/user-attachments/assets/5ad14c3b-1555-41f8-ad64-15856505162d)
+All binvox files are read into Python with the help of [binvox-rw-py](https://github.com/dimatura/binvox-rw-py) by Daniel Maturana.
+
 The subset of classes used include:
 - Bag,
 - Basket,
